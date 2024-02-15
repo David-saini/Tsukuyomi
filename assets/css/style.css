@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+
+.bg_black {
+    background: #00080e !important;
+}
+
+.header_bg {
+    background: url(/assets/images/webp/header_bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.branch_img {
+    max-width: 680px;
+}
+
+.moon_img {
+    max-width: 600px;
+    top: 0px;
+    right: 2%;
+}
+
+.worrior_img {
+    background: url(/assets/images/webp/worrior_img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

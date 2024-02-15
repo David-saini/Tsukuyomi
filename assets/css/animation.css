@@ -1,0 +1,111 @@
+.leaf_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: mymove 10s infinite linear;
+}
+
+.leaf_2 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    animation: mymove 15s infinite linear;
+}
+
+.leaf_3 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    animation: mymove 10s infinite linear;
+}
+
+.leaf_4 {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    animation: mymove 18s infinite linear;
+}
+
+
+@keyframes mymove {
+    0% {
+        top: 0%;
+        opacity: 1;
+    }
+
+    50% {
+        top: 50%;
+        opacity: 1;
+    }
+
+    75% {
+        top: 75%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+/* white_leaf */
+
+.animation {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    animation: mymove2 10s infinite linear;
+}
+
+.animation2 {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    animation: mymove2 15s infinite linear;
+}
+
+.animation3 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    animation: mymove2 10s infinite linear;
+}
+
+.animation4 {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    animation: mymove2 18s infinite linear;
+}
+
+@keyframes mymove2 {
+
+    0% {
+        top: 0%;
+        opacity: 0;
+    }
+
+    49% {
+        top: 49%;
+        opacity: 0;
+    }
+
+    51% {
+        top: 51%;
+        opacity: 1;
+    }
+
+    80% {
+        top: 80%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+
+}
+
+/* white_leaf */
